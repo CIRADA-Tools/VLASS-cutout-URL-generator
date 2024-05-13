@@ -29,12 +29,3 @@ Nevertheless, some users may find these useful if they do not want to use a Dock
 
 
 
-### Code Setup
-
-Please use this cell to edit important variables for this notebook.
-
-* The variable <em>onColab</em> ensures astroquery is installed when Google Colab runs this code.
-* The variable <em>testRunFlag</em> allows the code to only operate on the first 5 sources in a catalog for testing purposes.
-* The variable <em>radius</em> sets the size of the square image to be extracted.
-* The array <em>epoch</em> sets the epochs to be considered, although onbly the latest epoch for a source will be output.
-* The array <em>imageType</em> sets the type of image to be output. Please note this example code that outputs to a single column per source for a catalog works correctly only when one <em>imageType</em> is specified.
